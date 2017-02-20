@@ -1,1 +1,0 @@
-The landing page for stratux.us

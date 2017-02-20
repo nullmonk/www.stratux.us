@@ -1,0 +1,51 @@
+body {
+	background: url("../img/background.jpeg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.vertical-center {
+  min-height: 93%;
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-center {
+  margin: auto;
+  width: 60%;
+  min-width: 250px;
+  max-width: 900px;
+
+}
+
+.center-box {
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 15px;
+	padding: 100p;
+}
+
+.download {
+	cursor: pointer;
+	cursor: hand;
+	display: inline;
+	margin: 5px;
+}
+
+.footer {
+	border-radius: 10px 10px 0px 0px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	background-color: rgba(255,255,255,0.25);
+	text-align: center;
+	opacity: 0.50;
+	
+	margin: auto;
+	min-width: 250px;
+	max-width: 300px;
+}

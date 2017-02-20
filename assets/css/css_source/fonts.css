@@ -1,0 +1,16 @@
+* {
+  font-family:Helvetica;
+  color: #ffffff;
+}
+
+.large {
+	font-size: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.label {
+	font-size: 0.75em;
+}

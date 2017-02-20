@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Welcome to Stratux!</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+        <div class="vertical-center">
+			<div class="horizontal-center center-box" id="centered_group">
+				<div class="text-center">
+					<h1 class="text-center">Welcome to Stratux.us</h1>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="download" onclick="download('vpn-install.exe')">
+				<span class="large glyphicon glyphicon-save" aria-hidden="true" ></span><span class="label">VPN Installer</span>
+			</div>
+			<div class="download" onclick="download('vpn-config.zip')">
+				<span class="large glyphicon glyphicon-save" aria-hidden="true"></span><span class="label">VPN Config</span>
+			</div>
+		</div>
+	</body>
+<script>
+	function download(link) {
+		var x = confirm("Download "+link+"?")
+		if (x) {
+			window.location.href = "assets/files/"+link
+		}
+	}
+</script>
+</html>
