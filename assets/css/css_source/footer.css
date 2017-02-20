@@ -1,0 +1,28 @@
+.footer {	
+	/* Set the position and width of the footer */
+	margin: auto;
+	min-width: 250px;
+	max-width: 300px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	
+	/* Styling the footer */
+	background-color: rgba(255,255,255,0.25);
+	opacity: 0.50;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+
+.download {
+	/* Show the correct cursor */
+	cursor: pointer;
+	cursor: hand;
+	 /* inline and add margins on the sides */
+	display: inline;
+	margin: 0px 5px 0px 5px;
+}

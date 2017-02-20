@@ -1,0 +1,19 @@
+.author {
+	color: #fff;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 1.15em;
+	text-align: right;
+}
+
+.quote {
+	color: #fff;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+/* By surrounding the quote and author with this, the author will only stick out as far as the quote */
+.qotd {
+	display: inline-block
+}

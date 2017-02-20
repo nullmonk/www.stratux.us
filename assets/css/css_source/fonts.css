@@ -1,16 +1,21 @@
+/* The standard font */
 * {
   font-family:Helvetica;
   color: #ffffff;
 }
 
-.large {
-	font-size: 1em;
+h1 {
+	font-size: 2em
 }
 
+/* Allow for text to be centered as a class */
 .text-center {
-  text-align: center;
+	text-align: center;
 }
 
-.label {
-	font-size: 0.75em;
+/* size for the glyphicon icons */
+.icon {
+	font-size: 1.25em;
 }
+
+/* The font for the footer is located in footer.css */
