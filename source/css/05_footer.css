@@ -10,13 +10,18 @@
 	padding: 15px;
 	
 	/* Styling the footer */
-	background-color: rgba(255,255,255,0.25);
-	opacity: 0.50;
+	background-color: rgba(255,255,255,0.10);
+	opacity: 0.4;
 	border-radius: 10px 10px 0px 0px;
 	font-size: 0.75em;
 	text-align: center;
+	transition: .5s ease;
 }
 
+.footer:hover {
+	background-color: rgba(255,255,255,0.25);
+	opacity: 0.70;
+}
 
 .download {
 	/* Show the correct cursor */
@@ -25,4 +30,10 @@
 	 /* inline and add margins on the sides */
 	display: inline;
 	margin: 0px 5px 0px 5px;
+	transition: .25s ease;
+	opacity: 0.5;
+}
+
+.download:hover {
+	opacity: 1;
 }

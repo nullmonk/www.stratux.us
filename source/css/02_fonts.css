@@ -1,10 +1,11 @@
 /* The standard font */
 * {
-  font-family:Helvetica;
-  color: #ffffff;
+	font-family:Helvetica;
+ 	color: #ffffff;
 }
 
 h1 {
+	font-family:"Avant Garde";
 	font-size: 2em
 }
 
